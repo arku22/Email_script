@@ -31,6 +31,6 @@ Before running the script, be sure to check the values of the following variable
 - filepath_resume : The path to the Resume to be attached with Email
 - email_id : sender email address
 - password : sender email login password
-SMTP details - go to your email's settings page and search for "POP and IMAP" or a similar keyword.
+\nSMTP details - go to your email's settings page and search for "POP and IMAP" or a similar keyword.
 - host_name
 - port_number
