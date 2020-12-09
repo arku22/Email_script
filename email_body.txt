@@ -1,0 +1,8 @@
+Hello ${REC_FIRST_NAME},
+
+${COMPANY_NAME}.
+
+ I came across an opening for the "${POSITION_NAME}" (${POSITION_LOCATION}) position that interested me.  
+
+Thanks,
+AK
