@@ -1,15 +1,9 @@
 # Email_script
 Automating the process of applying to jobs.
 
-While applying for jobs I found one approach was to send out emails directly to recruiters. However this was tedious compared to the more conventional approach of going to a job board and applying to positions. I had to first identify positions I wished to apply to via a job portal and then record that in an excel sheet, find the contacts/emails of relevant recruiters, send out emails to each recruiter while customizing the message/email body for each email. Since I knew how to code in Python and I knew that it was a great scripting language I decided to use that to help me automate some of the repitative tasks. 
+While applying for jobs I found one approach was to send out emails directly to recruiters. However this was tedious compared to the more conventional approach of going to a job board and applying to positions. I had to first identify positions I wished to apply to via a job portal and then record that in an excel sheet, find the contacts/emails of relevant recruiters, send out emails to each recruiter while customizing the message/email body for each email. I decided to use Python to help me automate some of the repitative tasks. 
 
 My script can read an excel file(.xlsx), parsing it to locate email addresses and name of the contact, login into your email service provider, compose an email, fill in the subject, attach files and write a customized message(using Python template strings) and send out multiple emails.
-
-I used the following guide/web page as a starting point for my script : -
-https://www.freecodecamp.org/news/send-emails-using-code-4fcea9df63f/
-
-For Gmail : -
-https://blog.mailtrap.io/yagmail-tutorial/
 
 To run the program "email_script.py", you require the following libraries :-
 
@@ -33,3 +27,10 @@ Before running the script, be sure to check the values of the following variable
 - password : sender email login password
 - host_name (SMTP details - go to your email's settings page and search for "POP and IMAP" or a similar keyword.)
 - port_number (SMTP details - go to your email's settings page and search for "POP and IMAP" or a similar keyword.)
+
+## REFERENCES
+I used the following guide/web page as a starting point for my script : -
+https://www.freecodecamp.org/news/send-emails-using-code-4fcea9df63f/
+
+For Gmail : -
+https://blog.mailtrap.io/yagmail-tutorial/
