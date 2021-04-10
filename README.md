@@ -8,7 +8,7 @@ My script can read an excel file(.xlsx), parsing it to locate email addresses an
 To run the program "email_script.py", you require the following libraries :-
 
 * openpyxl - to parse xlsx spreadsheets
-	pip install openpyxl==2.6.2
+	`pip install openpyxl==2.6.2`
 * smtplib
 * email
 * yagmail 0.14.245 (if sending email via Gmail)
